@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "a0ca740e-02de-4e2c-a47c-ab53548d1d02",
+      "agentId": "main",
+      "name": "Check gateway service running",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1770438825378,
+      "updatedAtMs": 1770438825378,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-02-07T21:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "At 4pm, check that the OpenClaw gateway service is running (openclaw gateway status). Report status back to Dan."
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1770498000000
+      }
+    }
+  ]
+}

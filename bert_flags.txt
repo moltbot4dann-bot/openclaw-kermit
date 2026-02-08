@@ -1,1 +1,1 @@
-0
+{"restart_gateway": 0, "reboot_vm": 0}
